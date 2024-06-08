@@ -1,0 +1,96 @@
+main {
+    display: flex;
+}
+
+.menu {
+    background: gray;
+    border-radius: 10px 10px 10px 10px;
+    height: 600px;
+    display: flex;
+    width: 170px;
+}
+
+.pertanyaan {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 370px;
+    top: 10px
+}
+
+.tinggi {
+    margin: 0 0 0 0;
+    display: flex;
+}
+
+#inputTinggi {
+    height: 20px;
+    width: 30px;
+    position: relative;
+    top:120px;
+    left: 340px;
+    margin: 0 5px 0 0;
+}
+
+#tandaTanya {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 60px;
+    left: 130px;
+
+}
+
+#inputAlas {
+    height: 20px;
+    width: 30px;
+    position: relative;
+    left: 70px;
+    top: 250px;
+}
+
+#diagonal {
+    height: 20px;
+    width: 30px;
+    position: relative;
+    top: 50px;
+    right: 206px;
+}
+
+#a {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 380px;
+    bottom: 17px;
+}
+
+#b {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 210px;
+    right: 90px;
+}
+
+#c {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 210px;
+    left: 320px;
+}
+
+button {
+    height: 60px;
+    width: 120px;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    top: 300px;
+    left: -7px;
+}
+
+svg {
+    position: relative;
+    left: 340px;
+}
