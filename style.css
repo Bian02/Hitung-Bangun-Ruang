@@ -3,94 +3,84 @@ main {
 }
 
 .menu {
-    background: gray;
-    border-radius: 10px 10px 10px 10px;
+    background-color: gray;
     height: 600px;
-    display: flex;
-    width: 170px;
+    width: 100px;
 }
 
 .pertanyaan {
-    font-size: 30px;
+    margin: 30px 0 0 350px;
+    font-size: 35px;
     font-weight: bold;
-    position: relative;
-    left: 370px;
-    top: 10px
-}
-
-.tinggi {
-    margin: 0 0 0 0;
-    display: flex;
-}
-
-#inputTinggi {
-    height: 20px;
-    width: 30px;
-    position: relative;
-    top:120px;
-    left: 340px;
-    margin: 0 5px 0 0;
-}
-
-#tandaTanya {
-    font-weight: bold;
-    font-size: 30px;
-    position: relative;
-    top: 60px;
-    left: 130px;
-
-}
-
-#inputAlas {
-    height: 20px;
-    width: 30px;
-    position: relative;
-    left: 70px;
-    top: 250px;
-}
-
-#diagonal {
-    height: 20px;
-    width: 30px;
-    position: relative;
-    top: 50px;
-    right: 206px;
-}
-
-#a {
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
-    left: 380px;
-    bottom: 17px;
-}
-
-#b {
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
-    top: 210px;
-    right: 90px;
-}
-
-#c {
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
-    top: 210px;
-    left: 320px;
-}
-
-button {
-    height: 60px;
-    width: 120px;
-    border-radius: 5px 5px 5px 5px;
-    position: relative;
-    top: 300px;
-    left: -7px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 svg {
+    height: 242px;
+}
+
+.bangunRuang {
+    margin: 0 0 0 420px;
+}
+
+#a {
+    font-size: 22px;
+    font-weight: bold;
     position: relative;
-    left: 340px;
+    top: 45px;
+    left: 21px;
+    margin: 0 0 0 387px;
+}
+
+#inputTinggi {
+    position: relative;
+    top: 140px;
+    width: 30px;
+    margin: 0 0 0 378px
+}
+
+#inputAlas {
+    position: relative;
+    bottom: 144px;
+    right: 11px;
+    width: 30px;
+    margin: 0 0 0 185px
+}
+
+#tandaTanya {
+    margin: 0 0 0 0;
+    width: 0;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    bottom: 167px;
+    left: 180px;
+}
+
+#b {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    right: 16px;
+    bottom: 88px;
+}
+
+#c {
+    margin: 0 0 0 0;
+    width: 0;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    bottom: 137px;
+    left: 404px;
+}
+
+#hasil {
+    height: 100px;
+    width: 2000px;
+    font-size: 24px;
+    position: relative;
+    top: 600px;
+    right: 400px;
+
 }
