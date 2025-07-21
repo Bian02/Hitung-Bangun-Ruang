@@ -1,0 +1,1 @@
+Hitung-Bangun-Ruang adalah aplikasi berbasis web untuk menghitung panjang, volume dan luas permukaan dari berbagai bangun ruang. Namun untuk saat ini saya baru memberikan fitur hitung sis miring dari segitiga siku-siku. Kedepannya, saya akan terus mengembangkan aplikasi ini agar dapat melakukan banyak hal dalam perhitungan pada bangung ruang
