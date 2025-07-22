@@ -9,13 +9,18 @@
 <body>
     <main>
         <aside class="menu">
-            <p>Ya</p>
+            <button id="tutup">TUTUP</button>
+            <svg height="600px" width="400px" class="pilihSegitiga">
+                <path fill="lightgray" stroke="black"
+                d="M 5,40 L 5,100 L 95,100 L 5,40"/>
+            </svg>
         </aside>
         <aside class="isi">
             <p class="pertanyaan">Mencari Panjang Sisi Miring "ac"</p>
             <section class="tinggi">
                 <p id="a">a</p>
-                <input type="number" name="Tinggi" id="inputTinggi">
+                <input type="number" name="Tinggi" id="inputTinggi" required />
+                <p id="pesan"></p>
                 <section class="bangunRuang">
                     <svg height="600px" width="400px" class="segiTigaSiku-Siku">
                         <path fill="lightgray" stroke="black"
@@ -24,11 +29,13 @@
                     <p id="tandaTanya">?</p>
                     <p id="b">b</p>
                     <p id="c">c</p>
-                <input type="number" name="Alas" id="inputAlas">
-                <button id="jawaban">Submit</button>
+                <input type="number" name="Alas" id="inputAlas" required/>
+                <button type="submit" id="tombol">Submit</button>
             </section>
+            <p id="pesan"></p>
         </aside>
     </main>
+    <p id="info">Hasil Jawaban Ditampilkan Di Bawah:</p>
     <p id="hasil"></p>
     <script src="main.js"></script>
 </body>
