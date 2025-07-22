@@ -1,3 +1,11 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 600px;
+}
+
 main {
     display: flex;
 }
@@ -6,6 +14,16 @@ main {
     background-color: gray;
     height: 600px;
     width: 100px;
+    position: relative;
+    right: 8px
+}
+
+#tutup {
+    margin: 5px 0 0 35px
+}
+
+.pilihSegitiga {
+    margin: 0 0 0 0;
 }
 
 .pertanyaan {
@@ -27,7 +45,7 @@ svg {
     font-size: 22px;
     font-weight: bold;
     position: relative;
-    top: 45px;
+    top: 59px;
     left: 21px;
     margin: 0 0 0 387px;
 }
@@ -35,16 +53,16 @@ svg {
 #inputTinggi {
     position: relative;
     top: 140px;
-    width: 30px;
-    margin: 0 0 0 378px
+    width: 35px;
+    margin: 0 0 0 370px
 }
 
 #inputAlas {
     position: relative;
-    bottom: 144px;
+    bottom: 148px;
     right: 11px;
-    width: 30px;
-    margin: 0 0 0 185px
+    width: 35px;
+    margin: 10px 0 0 185px
 }
 
 #tandaTanya {
@@ -75,6 +93,12 @@ svg {
     left: 404px;
 }
 
+#tombol {
+    position: relative;
+    right: 64px;
+    bottom: 100px;
+}
+
 #hasil {
     height: 100px;
     width: 2000px;
@@ -82,5 +106,21 @@ svg {
     position: relative;
     top: 600px;
     right: 400px;
+    border-radius: 10px 10px 10px 10px;
+    margin: -580px 0 0 400px;
+    padding: 0 0 0 5px;
+    width: 1320px;
+}
 
+#jawaban {
+    height: 40px;
+    width: 120px;
+    position: relative;
+    right: 90px;
+    bottom: 70px;
+}
+
+#info {
+    font-size: 25px;
+    padding: 0 0 0 5px;
 }
