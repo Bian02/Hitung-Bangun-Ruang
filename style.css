@@ -22,10 +22,6 @@ main {
     margin: 5px 0 0 35px
 }
 
-.pilihSegitiga {
-    margin: 0 0 0 0;
-}
-
 .pertanyaan {
     margin: 30px 0 0 350px;
     font-size: 35px;
@@ -33,8 +29,9 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-svg {
-    height: 242px;
+#segitiga {
+    height: 102px;
+    width: 100px;
 }
 
 .bangunRuang {
@@ -42,45 +39,21 @@ svg {
 }
 
 #a {
+    margin: 0 0 0 0;
     font-size: 22px;
     font-weight: bold;
     position: relative;
-    top: 59px;
-    left: 21px;
-    margin: 0 0 0 387px;
-}
-
-#inputTinggi {
-    position: relative;
-    top: 140px;
-    width: 35px;
-    margin: 0 0 0 370px
-}
-
-#inputAlas {
-    position: relative;
-    bottom: 148px;
-    right: 11px;
-    width: 35px;
-    margin: 10px 0 0 185px
-}
-
-#tandaTanya {
-    margin: 0 0 0 0;
-    width: 0;
-    font-size: 40px;
-    font-weight: bold;
-    position: relative;
-    bottom: 167px;
-    left: 180px;
+    top: 65px;
+    left: 405px;
 }
 
 #b {
+    margin: 0 0 0 0;
     font-size: 22px;
     font-weight: bold;
     position: relative;
-    right: 16px;
-    bottom: 88px;
+    right: 17px;
+    bottom: 120px;
 }
 
 #c {
@@ -89,13 +62,39 @@ svg {
     font-size: 22px;
     font-weight: bold;
     position: relative;
-    bottom: 137px;
+    bottom:145px;
     left: 404px;
 }
 
-#tombol {
+#tandaTanya {
+    margin: 0 0 0 0;
+    font-size: 40px;
+    font-weight: bold;
     position: relative;
-    right: 64px;
+    bottom: 225px;
+    left: 180px;
+}
+
+#inputTinggi {
+    position: relative;
+    top: 160px;
+    left: 371px;
+    width: 35px;
+}
+
+#inputAlas {
+    position: relative;
+    bottom: 153px;
+    left: 170px;
+    width: 35px;
+    margin: 0 0 0 0;
+}
+
+#tombol {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 560px;
     bottom: 100px;
 }
 
