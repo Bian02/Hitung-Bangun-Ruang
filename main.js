@@ -2,9 +2,9 @@ document.getElementById("segitiga").addEventListener("click", () => {
     const segitiga = 
         `<p class="pertanyaan">Mencari Panjang Sisi Miring "ac"</p>
         <section class="tinggi">
+            <p id="pesan"></p>
             <p id="a">a</p>
             <input type="number" name="Tinggi" id="inputTinggi" required />
-            <p id="pesan"></p>
             <section class="bangunRuang">
                 <svg height="300px" width="400px" class="segiTigaSiku-Siku">
                     <path fill="lightgray" stroke="black"
@@ -14,11 +14,9 @@ document.getElementById("segitiga").addEventListener("click", () => {
                 <p id="b">b</p>
                 <p id="c">c</p>
             <input type="number" name="Alas" id="inputAlas" required/>
-        </section>
-        <button type="submit" id="tombol">Submit</button>`
+        </section>`
     document.querySelector(".isi").innerHTML = segitiga;
 });
-
 
 document.getElementById("tombol").addEventListener("click", () => {
     const a = document.getElementById("inputTinggi").value;
