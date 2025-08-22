@@ -7,33 +7,15 @@
     <title>Menghitung Segitiga</title>
 </head>
 <body>
-    <main>
+    <main class="bangun-ruang">
         <aside class="menu">
             <button id="tutup">TUTUP</button>
-            <svg height="600px" width="400px" class="pilihSegitiga">
+            <svg id="segitiga">
                 <path fill="lightgray" stroke="black"
-                d="M 5,40 L 5,100 L 95,100 L 5,40"/>
+                d="M 5,0 L 5,50 L 95,50 L 5,0"/>
             </svg>
         </aside>
-        <aside class="isi">
-            <p class="pertanyaan">Mencari Panjang Sisi Miring "ac"</p>
-            <section class="tinggi">
-                <p id="a">a</p>
-                <input type="number" name="Tinggi" id="inputTinggi" required />
-                <p id="pesan"></p>
-                <section class="bangunRuang">
-                    <svg height="600px" width="400px" class="segiTigaSiku-Siku">
-                        <path fill="lightgray" stroke="black"
-                        d="M 0,20 L 0,240 L 400,240 L 0,20"/>
-                    </svg>
-                    <p id="tandaTanya">?</p>
-                    <p id="b">b</p>
-                    <p id="c">c</p>
-                <input type="number" name="Alas" id="inputAlas" required/>
-                <button type="submit" id="tombol">Submit</button>
-            </section>
-            <p id="pesan"></p>
-        </aside>
+        <aside class="isi"></aside>
     </main>
     <p id="info">Hasil Jawaban Ditampilkan Di Bawah:</p>
     <p id="hasil"></p>
