@@ -43,7 +43,7 @@ main {
     font-size: 22px;
     font-weight: bold;
     position: relative;
-    top: 65px;
+    top: 50px;
     left: 405px;
 }
 
@@ -94,8 +94,8 @@ main {
     width: 100px;
     height: 50px;
     position: relative;
-    left: 560px;
-    bottom: 100px;
+    top: 470px;
+    right: 335px;
 }
 
 #hasil {
