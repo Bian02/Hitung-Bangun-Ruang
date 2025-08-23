@@ -75,14 +75,14 @@ main {
     left: 180px;
 }
 
-#inputTinggi {
+#tinggiSegitiga {
     position: relative;
     top: 160px;
     left: 371px;
     width: 35px;
 }
 
-#inputAlas {
+#panjangAlas {
     position: relative;
     bottom: 153px;
     left: 170px;
