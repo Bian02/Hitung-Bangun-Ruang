@@ -4,7 +4,7 @@ document.getElementById("segitiga").addEventListener("click", () => {
         <section class="tinggi">
             <p id="pesan"></p>
             <p id="a">a</p>
-            <input type="number" name="Tinggi" id="inputTinggi" required />
+            <input type="number" name="Tinggi" id="tinggiSegitiga" required />
             <section class="bangunRuang">
                 <svg height="300px" width="400px" class="segiTigaSiku-Siku">
                     <path fill="lightgray" stroke="black"
@@ -13,14 +13,14 @@ document.getElementById("segitiga").addEventListener("click", () => {
                 <p id="tandaTanya">?</p>
                 <p id="b">b</p>
                 <p id="c">c</p>
-            <input type="number" name="Alas" id="inputAlas" required/>
+            <input type="number" name="Alas" id="panjangAlas" required />
         </section>`
     document.querySelector(".isi").innerHTML = segitiga;
 });
 
 document.getElementById("tombol").addEventListener("click", () => {
-    const a = document.getElementById("inputTinggi").value;
-    const b = document.getElementById("inputAlas").value;
+    const a = document.getElementById("tinggiSegitiga").value;
+    const b = document.getElementById("panjangAlas").value;
     let c = (a**2) + (b**2);
     c = Math.sqrt(c);
 
